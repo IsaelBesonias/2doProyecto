@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mascotas</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="/">Mi información</a>
+        <nav class="main-nav" aria-label="Navegación principal">
+            <a class="nav-link" href="/">Datos personales</a>
+            <a class="nav-link is-active" href="/mascotas.html" aria-current="page">Mascotas</a>
+        </nav>
+    </header>
+
+    <main class="page-shell" data-page="mascotas">
+        <h1>Mascotas</h1>
+        <p class="page-description">Lista de mascotas obtenida desde la API.</p>
+
+        <section class="table-panel" aria-label="Lista de mascotas">
+            <div class="table-scroll">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Edad</th>
+                            <th scope="col">Raza</th>
+                        </tr>
+                    </thead>
+                    <tbody id="pets-table">
+                        <tr>
+                            <td class="table-placeholder" colspan="4">Cargando mascotas...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="load-status" id="load-status" aria-live="polite">Conectando con la API...</p>
+            <div class="error-message" id="api-error" role="alert" hidden>
+                <span>No fue posible obtener las mascotas. Revisa que la API esté ejecutándose.</span>
+                <button class="retry-button" id="retry-button" type="button">Reintentar</button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

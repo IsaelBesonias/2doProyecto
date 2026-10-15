@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Datos personales</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="/">Mi información</a>
+        <nav class="main-nav" aria-label="Navegación principal">
+            <a class="nav-link is-active" href="/" aria-current="page">Datos personales</a>
+            <a class="nav-link" href="/mascotas.html">Mascotas</a>
+        </nav>
+    </header>
+
+    <main class="page-shell" data-page="personal">
+        <h1>Datos personales</h1>
+        <p class="page-description">Información obtenida desde la API.</p>
+
+        <section class="data-panel" aria-label="Información personal">
+            <dl class="detail-list">
+                <div class="detail-row">
+                    <dt>Nombre</dt>
+                    <dd data-field="nombre">Cargando...</dd>
+                </div>
+                <div class="detail-row">
+                    <dt>Fecha de nacimiento</dt>
+                    <dd data-field="fechaNacimiento">Cargando...</dd>
+                </div>
+                <div class="detail-row">
+                    <dt>Dirección</dt>
+                    <dd data-field="direccion">Cargando...</dd>
+                </div>
+            </dl>
+            <p class="load-status" id="load-status" aria-live="polite">Conectando con la API...</p>
+            <div class="error-message" id="api-error" role="alert" hidden>
+                <span>No fue posible obtener los datos. Revisa que la API esté ejecutándose.</span>
+                <button class="retry-button" id="retry-button" type="button">Reintentar</button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

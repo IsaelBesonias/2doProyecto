@@ -1,0 +1,252 @@
+:root {
+    color-scheme: light;
+    --text: #26332e;
+    --muted: #66736c;
+    --border: #d8ded9;
+    --background: #f5f6f5;
+    --surface: #ffffff;
+    --green: #286b55;
+    --green-light: #eaf2ed;
+    --error: #9c3023;
+    --error-background: #fff0ed;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    color: var(--text);
+    background: var(--background);
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+.site-header {
+    min-height: 64px;
+    padding: 0 max(24px, calc((100% - 880px) / 2));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+}
+
+.brand {
+    color: var(--text);
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.main-nav {
+    display: flex;
+    gap: 4px;
+}
+
+.nav-link {
+    padding: 9px 12px;
+    color: var(--muted);
+    border-radius: 4px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link.is-active {
+    color: var(--green);
+    background: var(--green-light);
+}
+
+.page-shell {
+    width: min(100% - 40px, 760px);
+    margin: 0 auto;
+    padding: 44px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.page-description {
+    margin: 8px 0 24px;
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.data-panel,
+.table-panel {
+    overflow: hidden;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+}
+
+.detail-list {
+    margin: 0;
+    padding: 8px 24px;
+}
+
+.detail-row {
+    min-height: 68px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid var(--border);
+}
+
+.detail-row:last-child {
+    border-bottom: 0;
+}
+
+.detail-row dt {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.detail-row dd {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.table-scroll {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 13px 18px;
+    border-bottom: 1px solid var(--border);
+}
+
+th {
+    color: var(--text);
+    background: var(--green-light);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+td {
+    font-size: 14px;
+}
+
+tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+.table-placeholder {
+    color: var(--muted);
+    text-align: center;
+}
+
+.load-status,
+.error-message {
+    margin: 0;
+    padding: 13px 24px;
+    border-top: 1px solid var(--border);
+    font-size: 13px;
+}
+
+.load-status {
+    color: var(--muted);
+}
+
+.error-message {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    color: var(--error);
+    background: var(--error-background);
+}
+
+.retry-button {
+    padding: 7px 10px;
+    color: white;
+    background: var(--green);
+    border: 0;
+    border-radius: 4px;
+    font: inherit;
+    cursor: pointer;
+}
+
+.retry-button:hover {
+    background: #1d503e;
+}
+
+[hidden] {
+    display: none !important;
+}
+
+:focus-visible {
+    outline: 2px solid var(--green);
+    outline-offset: 2px;
+}
+
+@media (max-width: 560px) {
+    .site-header {
+        padding: 12px 16px;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .main-nav {
+        width: 100%;
+    }
+
+    .nav-link {
+        flex: 1;
+        text-align: center;
+    }
+
+    .page-shell {
+        width: min(100% - 32px, 760px);
+        padding-top: 32px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .detail-list {
+        padding: 4px 16px;
+    }
+
+    .detail-row {
+        min-height: 64px;
+        grid-template-columns: 1fr;
+        align-content: center;
+        gap: 4px;
+    }
+
+    th,
+    td {
+        padding: 12px 10px;
+    }
+
+    .load-status,
+    .error-message {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .error-message {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
