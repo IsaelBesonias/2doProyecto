@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\styles.css"
     },
     {
+      "Id": "C:\\Users\\isael\\OneDrive\\Documentos\\Itla\\Pasantia\\2doProyecto\\wwwroot\\sumadora.html",
+      "PackagePath": "staticwebassets\\sumadora.html"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DatosPersonalesApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

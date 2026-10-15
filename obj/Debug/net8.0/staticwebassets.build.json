@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KMTK929NLSURIJRpY9/fzGQcn8Tn5n0XpTaTyJpzT64=",
+  "Hash": "Tza0IHZnKnVu+TMxwi24elgZcvnfuKnlo7lDIBsltT8=",
   "Source": "DatosPersonalesApi",
   "BasePath": "_content/DatosPersonalesApi",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "h4umxbrffs",
-      "Integrity": "/4DhyONxf9rztShT40l5ZDTMSngZvA83SiQEZtsLReY=",
+      "Fingerprint": "u8yj3czv2e",
+      "Integrity": "Hrftn2x49isFyxMfxVVUFgQzPHEZI4wZHxmvPwLOKz8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.js"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8hbtfwcc10",
-      "Integrity": "XI5q/nO3QzhD6hODzoJayX7fw80C+tcpQIPS80T7a2U=",
+      "Fingerprint": "x3p7tt7nrh",
+      "Integrity": "I4SOSqCPzDr6td78AsAmZYZGkH3gcIML1RGbThGJ0yo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4huebe6x6d",
-      "Integrity": "yBTEt88gNw0cI9/KQdOvsJVcdGxANPvOYrgVfN2A0VU=",
+      "Fingerprint": "q63hept0vj",
+      "Integrity": "njMDVMqcnEjv1CVH/NYyJPjMhfNM0by3FvHH0jtRTKo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\mascotas.html"
@@ -94,59 +94,35 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "e7t0wwx2pz",
-      "Integrity": "Jjx0X3kaCP2AXovDdDnSCQ94vVqCW1wIFVAG0bhx1KU=",
+      "Fingerprint": "7t72wqc3x7",
+      "Integrity": "9SNJKhD33B3+t/KS9NRFjp6j7+zafhaWAD8Z04SKvMo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\isael\\OneDrive\\Documentos\\Itla\\Pasantia\\2doProyecto\\wwwroot\\sumadora.html",
+      "SourceId": "DatosPersonalesApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\isael\\OneDrive\\Documentos\\Itla\\Pasantia\\2doProyecto\\wwwroot\\",
+      "BasePath": "_content/DatosPersonalesApi",
+      "RelativePath": "sumadora#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "68x1xmz52a",
+      "Integrity": "ilhWQscK9OnCduQp+MM7dyf8R5WtcyeKdOCgSBeSzNg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sumadora.html"
     }
   ],
   "Endpoints": [
-    {
-      "Route": "app.h4umxbrffs.js",
-      "AssetFile": "C:\\Users\\isael\\OneDrive\\Documentos\\Itla\\Pasantia\\2doProyecto\\wwwroot\\app.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1815"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/4DhyONxf9rztShT40l5ZDTMSngZvA83SiQEZtsLReY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 15 Oct 2026 03:00:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "h4umxbrffs"
-        },
-        {
-          "Name": "label",
-          "Value": "app.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/4DhyONxf9rztShT40l5ZDTMSngZvA83SiQEZtsLReY="
-        }
-      ]
-    },
     {
       "Route": "app.js",
       "AssetFile": "C:\\Users\\isael\\OneDrive\\Documentos\\Itla\\Pasantia\\2doProyecto\\wwwroot\\app.js",
@@ -158,7 +134,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1815"
+          "Value": "3263"
         },
         {
           "Name": "Content-Type",
@@ -166,11 +142,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/4DhyONxf9rztShT40l5ZDTMSngZvA83SiQEZtsLReY=\""
+          "Value": "\"Hrftn2x49isFyxMfxVVUFgQzPHEZI4wZHxmvPwLOKz8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 15 Oct 2026 03:00:15 GMT"
+          "Value": "Thu, 15 Oct 2026 05:10:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -180,13 +156,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-/4DhyONxf9rztShT40l5ZDTMSngZvA83SiQEZtsLReY="
+          "Value": "sha256-Hrftn2x49isFyxMfxVVUFgQzPHEZI4wZHxmvPwLOKz8="
         }
       ]
     },
     {
-      "Route": "index.8hbtfwcc10.html",
-      "AssetFile": "C:\\Users\\isael\\OneDrive\\Documentos\\Itla\\Pasantia\\2doProyecto\\wwwroot\\index.html",
+      "Route": "app.u8yj3czv2e.js",
+      "AssetFile": "C:\\Users\\isael\\OneDrive\\Documentos\\Itla\\Pasantia\\2doProyecto\\wwwroot\\app.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -195,19 +171,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1913"
+          "Value": "3263"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"XI5q/nO3QzhD6hODzoJayX7fw80C+tcpQIPS80T7a2U=\""
+          "Value": "\"Hrftn2x49isFyxMfxVVUFgQzPHEZI4wZHxmvPwLOKz8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 15 Oct 2026 03:05:45 GMT"
+          "Value": "Thu, 15 Oct 2026 05:10:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -217,15 +193,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8hbtfwcc10"
+          "Value": "u8yj3czv2e"
         },
         {
           "Name": "label",
-          "Value": "index.html"
+          "Value": "app.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-XI5q/nO3QzhD6hODzoJayX7fw80C+tcpQIPS80T7a2U="
+          "Value": "sha256-Hrftn2x49isFyxMfxVVUFgQzPHEZI4wZHxmvPwLOKz8="
         }
       ]
     },
@@ -240,7 +216,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1913"
+          "Value": "1981"
         },
         {
           "Name": "Content-Type",
@@ -248,11 +224,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XI5q/nO3QzhD6hODzoJayX7fw80C+tcpQIPS80T7a2U=\""
+          "Value": "\"I4SOSqCPzDr6td78AsAmZYZGkH3gcIML1RGbThGJ0yo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 15 Oct 2026 03:05:45 GMT"
+          "Value": "Thu, 15 Oct 2026 05:10:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -262,13 +238,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XI5q/nO3QzhD6hODzoJayX7fw80C+tcpQIPS80T7a2U="
+          "Value": "sha256-I4SOSqCPzDr6td78AsAmZYZGkH3gcIML1RGbThGJ0yo="
         }
       ]
     },
     {
-      "Route": "mascotas.4huebe6x6d.html",
-      "AssetFile": "C:\\Users\\isael\\OneDrive\\Documentos\\Itla\\Pasantia\\2doProyecto\\wwwroot\\mascotas.html",
+      "Route": "index.x3p7tt7nrh.html",
+      "AssetFile": "C:\\Users\\isael\\OneDrive\\Documentos\\Itla\\Pasantia\\2doProyecto\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -277,7 +253,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2005"
+          "Value": "1981"
         },
         {
           "Name": "Content-Type",
@@ -285,11 +261,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yBTEt88gNw0cI9/KQdOvsJVcdGxANPvOYrgVfN2A0VU=\""
+          "Value": "\"I4SOSqCPzDr6td78AsAmZYZGkH3gcIML1RGbThGJ0yo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 15 Oct 2026 03:05:45 GMT"
+          "Value": "Thu, 15 Oct 2026 05:10:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -299,15 +275,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4huebe6x6d"
+          "Value": "x3p7tt7nrh"
         },
         {
           "Name": "label",
-          "Value": "mascotas.html"
+          "Value": "index.html"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-yBTEt88gNw0cI9/KQdOvsJVcdGxANPvOYrgVfN2A0VU="
+          "Value": "sha256-I4SOSqCPzDr6td78AsAmZYZGkH3gcIML1RGbThGJ0yo="
         }
       ]
     },
@@ -322,7 +298,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2005"
+          "Value": "2073"
         },
         {
           "Name": "Content-Type",
@@ -330,11 +306,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yBTEt88gNw0cI9/KQdOvsJVcdGxANPvOYrgVfN2A0VU=\""
+          "Value": "\"njMDVMqcnEjv1CVH/NYyJPjMhfNM0by3FvHH0jtRTKo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 15 Oct 2026 03:05:45 GMT"
+          "Value": "Thu, 15 Oct 2026 05:10:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -344,7 +320,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yBTEt88gNw0cI9/KQdOvsJVcdGxANPvOYrgVfN2A0VU="
+          "Value": "sha256-njMDVMqcnEjv1CVH/NYyJPjMhfNM0by3FvHH0jtRTKo="
+        }
+      ]
+    },
+    {
+      "Route": "mascotas.q63hept0vj.html",
+      "AssetFile": "C:\\Users\\isael\\OneDrive\\Documentos\\Itla\\Pasantia\\2doProyecto\\wwwroot\\mascotas.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2073"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"njMDVMqcnEjv1CVH/NYyJPjMhfNM0by3FvHH0jtRTKo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Oct 2026 05:10:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q63hept0vj"
+        },
+        {
+          "Name": "label",
+          "Value": "mascotas.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-njMDVMqcnEjv1CVH/NYyJPjMhfNM0by3FvHH0jtRTKo="
+        }
+      ]
+    },
+    {
+      "Route": "styles.7t72wqc3x7.css",
+      "AssetFile": "C:\\Users\\isael\\OneDrive\\Documentos\\Itla\\Pasantia\\2doProyecto\\wwwroot\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5360"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9SNJKhD33B3+t/KS9NRFjp6j7+zafhaWAD8Z04SKvMo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Oct 2026 05:10:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7t72wqc3x7"
+        },
+        {
+          "Name": "label",
+          "Value": "styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9SNJKhD33B3+t/KS9NRFjp6j7+zafhaWAD8Z04SKvMo="
         }
       ]
     },
@@ -359,7 +425,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4244"
+          "Value": "5360"
         },
         {
           "Name": "Content-Type",
@@ -367,11 +433,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Jjx0X3kaCP2AXovDdDnSCQ94vVqCW1wIFVAG0bhx1KU=\""
+          "Value": "\"9SNJKhD33B3+t/KS9NRFjp6j7+zafhaWAD8Z04SKvMo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 15 Oct 2026 03:06:55 GMT"
+          "Value": "Thu, 15 Oct 2026 05:10:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -381,13 +447,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Jjx0X3kaCP2AXovDdDnSCQ94vVqCW1wIFVAG0bhx1KU="
+          "Value": "sha256-9SNJKhD33B3+t/KS9NRFjp6j7+zafhaWAD8Z04SKvMo="
         }
       ]
     },
     {
-      "Route": "styles.e7t0wwx2pz.css",
-      "AssetFile": "C:\\Users\\isael\\OneDrive\\Documentos\\Itla\\Pasantia\\2doProyecto\\wwwroot\\styles.css",
+      "Route": "sumadora.68x1xmz52a.html",
+      "AssetFile": "C:\\Users\\isael\\OneDrive\\Documentos\\Itla\\Pasantia\\2doProyecto\\wwwroot\\sumadora.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -396,19 +462,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4244"
+          "Value": "1779"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "text/html"
         },
         {
           "Name": "ETag",
-          "Value": "\"Jjx0X3kaCP2AXovDdDnSCQ94vVqCW1wIFVAG0bhx1KU=\""
+          "Value": "\"ilhWQscK9OnCduQp+MM7dyf8R5WtcyeKdOCgSBeSzNg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 15 Oct 2026 03:06:55 GMT"
+          "Value": "Thu, 15 Oct 2026 05:10:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -418,15 +484,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "e7t0wwx2pz"
+          "Value": "68x1xmz52a"
         },
         {
           "Name": "label",
-          "Value": "styles.css"
+          "Value": "sumadora.html"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Jjx0X3kaCP2AXovDdDnSCQ94vVqCW1wIFVAG0bhx1KU="
+          "Value": "sha256-ilhWQscK9OnCduQp+MM7dyf8R5WtcyeKdOCgSBeSzNg="
+        }
+      ]
+    },
+    {
+      "Route": "sumadora.html",
+      "AssetFile": "C:\\Users\\isael\\OneDrive\\Documentos\\Itla\\Pasantia\\2doProyecto\\wwwroot\\sumadora.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1779"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ilhWQscK9OnCduQp+MM7dyf8R5WtcyeKdOCgSBeSzNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 Oct 2026 05:10:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ilhWQscK9OnCduQp+MM7dyf8R5WtcyeKdOCgSBeSzNg="
         }
       ]
     }

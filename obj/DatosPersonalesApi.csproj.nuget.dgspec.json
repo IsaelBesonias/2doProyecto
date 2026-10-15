@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/2doProyecto/DatosPersonalesApi.csproj": {}
+    "C:\\Users\\isael\\OneDrive\\Documentos\\Itla\\Pasantia\\2doProyecto\\DatosPersonalesApi.csproj": {}
   },
   "projects": {
-    "/workspaces/2doProyecto/DatosPersonalesApi.csproj": {
+    "C:\\Users\\isael\\OneDrive\\Documentos\\Itla\\Pasantia\\2doProyecto\\DatosPersonalesApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/2doProyecto/DatosPersonalesApi.csproj",
+        "projectUniqueName": "C:\\Users\\isael\\OneDrive\\Documentos\\Itla\\Pasantia\\2doProyecto\\DatosPersonalesApi.csproj",
         "projectName": "DatosPersonalesApi",
-        "projectPath": "/workspaces/2doProyecto/DatosPersonalesApi.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/2doProyecto/obj/",
+        "projectPath": "C:\\Users\\isael\\OneDrive\\Documentos\\Itla\\Pasantia\\2doProyecto\\DatosPersonalesApi.csproj",
+        "packagesPath": "C:\\Users\\isael\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\isael\\OneDrive\\Documentos\\Itla\\Pasantia\\2doProyecto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\isael\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -24,7 +24,6 @@
         },
         "frameworks": {
           "net8.0": {
-            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -37,13 +36,12 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.400"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Swashbuckle.AspNetCore": {
@@ -62,6 +60,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -70,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

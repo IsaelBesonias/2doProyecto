@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sumadora</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="brand" href="/">Mi información</a>
+        <nav class="main-nav" aria-label="Navegación principal">
+            <a class="nav-link" href="/">Datos personales</a>
+            <a class="nav-link" href="/mascotas.html">Mascotas</a>
+            <a class="nav-link is-active" href="/sumadora.html" aria-current="page">Sumadora</a>
+        </nav>
+    </header>
+
+    <main class="page-shell" data-page="sumadora">
+        <h1>Sumadora</h1>
+        <p class="page-description">Introduce dos números para obtener su suma.</p>
+
+        <section class="data-panel" aria-label="Formulario para sumar">
+            <form class="sum-form" id="sum-form">
+                <div class="sum-field">
+                    <label for="numero1">Primer número</label>
+                    <input id="numero1" name="numero1" type="number" step="any" inputmode="decimal" required>
+                </div>
+                <div class="sum-field">
+                    <label for="numero2">Segundo número</label>
+                    <input id="numero2" name="numero2" type="number" step="any" inputmode="decimal" required>
+                </div>
+                <button class="sum-button" type="submit">Sumar</button>
+            </form>
+            <p class="sum-result" id="sum-result" aria-live="polite" hidden></p>
+            <p class="sum-error" id="sum-error" role="alert" hidden></p>
+        </section>
+    </main>
+</body>
+
+</html>

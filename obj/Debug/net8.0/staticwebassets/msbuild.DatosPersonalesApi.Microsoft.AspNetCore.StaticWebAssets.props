@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>h4umxbrffs</Fingerprint>
-      <Integrity>/4DhyONxf9rztShT40l5ZDTMSngZvA83SiQEZtsLReY=</Integrity>
+      <Fingerprint>u8yj3czv2e</Fingerprint>
+      <Integrity>Hrftn2x49isFyxMfxVVUFgQzPHEZI4wZHxmvPwLOKz8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.js'))</OriginalItemSpec>
@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8hbtfwcc10</Fingerprint>
-      <Integrity>XI5q/nO3QzhD6hODzoJayX7fw80C+tcpQIPS80T7a2U=</Integrity>
+      <Fingerprint>x3p7tt7nrh</Fingerprint>
+      <Integrity>I4SOSqCPzDr6td78AsAmZYZGkH3gcIML1RGbThGJ0yo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4huebe6x6d</Fingerprint>
-      <Integrity>yBTEt88gNw0cI9/KQdOvsJVcdGxANPvOYrgVfN2A0VU=</Integrity>
+      <Fingerprint>q63hept0vj</Fingerprint>
+      <Integrity>njMDVMqcnEjv1CVH/NYyJPjMhfNM0by3FvHH0jtRTKo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\mascotas.html'))</OriginalItemSpec>
@@ -66,11 +66,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>e7t0wwx2pz</Fingerprint>
-      <Integrity>Jjx0X3kaCP2AXovDdDnSCQ94vVqCW1wIFVAG0bhx1KU=</Integrity>
+      <Fingerprint>7t72wqc3x7</Fingerprint>
+      <Integrity>9SNJKhD33B3+t/KS9NRFjp6j7+zafhaWAD8Z04SKvMo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sumadora.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DatosPersonalesApi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DatosPersonalesApi</BasePath>
+      <RelativePath>sumadora.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>68x1xmz52a</Fingerprint>
+      <Integrity>ilhWQscK9OnCduQp+MM7dyf8R5WtcyeKdOCgSBeSzNg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sumadora.html'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

@@ -188,6 +188,68 @@ tbody tr:last-child td {
     background: #1d503e;
 }
 
+.sum-form {
+    padding: 20px 24px;
+    display: grid;
+    gap: 16px;
+}
+
+.sum-field {
+    display: grid;
+    gap: 6px;
+}
+
+.sum-field label {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.sum-field input {
+    width: 100%;
+    min-height: 42px;
+    padding: 8px 10px;
+    color: var(--text);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    font: inherit;
+    font-size: 16px;
+}
+
+.sum-button {
+    justify-self: start;
+    padding: 9px 16px;
+    color: white;
+    background: var(--green);
+    border: 0;
+    border-radius: 4px;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sum-button:hover {
+    background: #1d503e;
+}
+
+.sum-result,
+.sum-error {
+    margin: 0;
+    padding: 13px 24px;
+    border-top: 1px solid var(--border);
+    font-size: 15px;
+}
+
+.sum-result {
+    color: var(--green);
+    font-weight: 700;
+}
+
+.sum-error {
+    color: var(--error);
+    background: var(--error-background);
+}
+
 [hidden] {
     display: none !important;
 }
@@ -240,9 +302,15 @@ tbody tr:last-child td {
     }
 
     .load-status,
-    .error-message {
+    .error-message,
+    .sum-result,
+    .sum-error {
         padding-right: 16px;
         padding-left: 16px;
+    }
+
+    .sum-form {
+        padding: 16px;
     }
 
     .error-message {

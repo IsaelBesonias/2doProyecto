@@ -67,3 +67,11 @@ C:\Users\isael\AppData\Local\Temp\DatosPersonalesApiVerify4\DatosPersonalesApi.d
 C:\Users\isael\AppData\Local\Temp\DatosPersonalesApiVerify4\DatosPersonalesApi.runtimeconfig.json
 C:\Users\isael\AppData\Local\Temp\DatosPersonalesApiVerify4\DatosPersonalesApi.dll
 C:\Users\isael\AppData\Local\Temp\DatosPersonalesApiVerify4\DatosPersonalesApi.pdb
+C:\Users\isael\AppData\Local\Temp\DatosPersonalesApiSumadora\appsettings.Development.json
+C:\Users\isael\AppData\Local\Temp\DatosPersonalesApiSumadora\appsettings.json
+C:\Users\isael\AppData\Local\Temp\DatosPersonalesApiSumadora\DatosPersonalesApi.staticwebassets.runtime.json
+C:\Users\isael\AppData\Local\Temp\DatosPersonalesApiSumadora\DatosPersonalesApi.staticwebassets.endpoints.json
+C:\Users\isael\AppData\Local\Temp\DatosPersonalesApiSumadora\DatosPersonalesApi.deps.json
+C:\Users\isael\AppData\Local\Temp\DatosPersonalesApiSumadora\DatosPersonalesApi.runtimeconfig.json
+C:\Users\isael\AppData\Local\Temp\DatosPersonalesApiSumadora\DatosPersonalesApi.dll
+C:\Users\isael\AppData\Local\Temp\DatosPersonalesApiSumadora\DatosPersonalesApi.pdb
