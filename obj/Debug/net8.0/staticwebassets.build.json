@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "dYcxoV4LO+T/b90gnCJujTlpz8fhfi+r0B7gCSdOob4=",
+  "Source": "DatosPersonalesApi",
+  "BasePath": "_content/DatosPersonalesApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
