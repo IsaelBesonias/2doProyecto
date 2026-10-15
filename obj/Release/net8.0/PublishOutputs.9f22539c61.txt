@@ -1,0 +1,11 @@
+/workspaces/2doProyecto/bin/Release/net8.0/publish/DatosPersonalesApi
+/workspaces/2doProyecto/bin/Release/net8.0/publish/appsettings.Development.json
+/workspaces/2doProyecto/bin/Release/net8.0/publish/appsettings.json
+/workspaces/2doProyecto/bin/Release/net8.0/publish/DatosPersonalesApi.dll
+/workspaces/2doProyecto/bin/Release/net8.0/publish/DatosPersonalesApi.deps.json
+/workspaces/2doProyecto/bin/Release/net8.0/publish/DatosPersonalesApi.runtimeconfig.json
+/workspaces/2doProyecto/bin/Release/net8.0/publish/DatosPersonalesApi.pdb
+/workspaces/2doProyecto/bin/Release/net8.0/publish/Microsoft.OpenApi.dll
+/workspaces/2doProyecto/bin/Release/net8.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/workspaces/2doProyecto/bin/Release/net8.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/workspaces/2doProyecto/bin/Release/net8.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
